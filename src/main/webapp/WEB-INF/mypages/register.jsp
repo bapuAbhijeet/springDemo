@@ -4,15 +4,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>Registration</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<h2>Login</h2>
-<form action="/validateUser" method="POST" >
-	<input type ="text" name="uName"></input>
-	<input type="password" name="pwd"></input>
-	<button type ="submit">Log in </button>
+<h2>registration</h2>
+
+
+<form class=action="/registerUser" method="POST" >
+	<input class="form-control" type ="text" name="uName"></input>
+	<input class="form-control" type="password" name="pwd"></input>
+	<button class ="btn-btn-success" type ="submit">Register </button>
 </form>
 </body>
 </html>
